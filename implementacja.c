@@ -1,6 +1,7 @@
 #include "plik_naglowkowy.h"
 #define MAX 30
 
+
 int wedlug_nazwy(const void *wsk_1, const void *wsk_2)
 {
     struct Drukarka *nazwa_1=(struct Drukarka*)wsk_1;

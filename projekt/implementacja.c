@@ -1,7 +1,12 @@
 #include "plik_naglowkowy.h"
 #define MAX 30
 
+<<<<<<< HEAD:projekt/implementacja.c
 /*int wedlug_nazwy(const void *wsk_1, const void *wsk_2)
+=======
+
+int wedlug_nazwy(const void *wsk_1, const void *wsk_2)
+>>>>>>> 3ceb6d8055bb65e713daaddaacf82225e3149004:implementacja.c
 {
     struct Drukarka *nazwa_1=(struct Drukarka*)wsk_1;
     struct Drukarka *nazwa_2=(struct Drukarka*)wsk_2;

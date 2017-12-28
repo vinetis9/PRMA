@@ -1,7 +1,7 @@
 #include "plik_naglowkowy.h"
 #define MAX 30
 
-int wedlug_nazwy(const void *wsk_1, const void *wsk_2)
+/*int wedlug_nazwy(const void *wsk_1, const void *wsk_2)
 {
     struct Drukarka *nazwa_1=(struct Drukarka*)wsk_1;
     struct Drukarka *nazwa_2=(struct Drukarka*)wsk_2;
@@ -13,12 +13,12 @@ int wedlug_typu(const void *wsk_1, const void *wsk_2)
     struct Drukarka *typ_2=(struct Drukarka*)wsk_2;
     return (strcmp(typ_1->typ, typ_2->typ));
 }
-int wedlug_wartosci( *wsk_1, const void *wsk_2)
+int wedlug_wartosci( *wsk_1, const voi *wsk_2)
 {
 }
 
 
-
+*/
 void wprowadz_dane(struct Drukarka *d)
 {
    char nazwa_drukarki[MAX];
@@ -46,9 +46,7 @@ void sortuj(struct Drukarka *d)
    switch (opcja)
    {
         case 1:
-            qsort()
-
-
+          //  qsort()
 
             break;
         case 2:
